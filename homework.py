@@ -16,9 +16,9 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO)
 
-PRACTICUM_TOKEN = 'y0_AgAAAAA_ikpFAAYckQAAAADhkx1vwtefX44eQjOZNtT7cvGwe2a_Atc'
-TELEGRAM_TOKEN = '6235105987:AAECrlGhKt_bf5aiKG1bFGGeSMzx33dfRwU'
-TELEGRAM_CHAT_ID = '5989373675'
+PRACTICUM_TOKEN = practicum_token
+TELEGRAM_TOKEN = secret_token
+TELEGRAM_CHAT_ID = chat_id
 
 RETRY_PERIOD = 600
 ENDPOINT = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
