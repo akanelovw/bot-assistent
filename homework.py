@@ -16,7 +16,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 PRACTICUM_TOKEN = practicum_token
-TELEGRAM_TOKEN = secret_token
+TELEGRAM_TOKEN = '6235105987:AAErJbT1Uxd2riA0os8_7OWbLgUOifdvOGU'
 TELEGRAM_CHAT_ID = '5989373675'
 
 RETRY_PERIOD = 600
