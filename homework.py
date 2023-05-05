@@ -1,4 +1,5 @@
 import logging
+import os
 import time
 import sys
 
@@ -12,12 +13,11 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO)
 
-# PRACTICUM_TOKEN = os.getenv('PRACTICUM_TOKEN')
-# TELEGRAM_TOKEN = os.getenv('TOKEN')
-# TELEGRAM_CHAT_ID = os.getenv('CHAT_ID')
-PRACTICUM_TOKEN = 'y0_AgAAAAA_ikpFAAYckQAAAADhkx1vwtefX44eQjOZNtT7cvGwe2a_Atc'
-TELEGRAM_TOKEN = '6235105987:AAErJbT1Uxd2riA0os8_7OWbLgUOifdvOGU'
-TELEGRAM_CHAT_ID = '5989373675'
+
+PRACTICUM_TOKEN = os.getenv('PRACTICUM_TOKEN')
+TELEGRAM_TOKEN = os.getenv('TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('CHAT_ID')
+
 
 RETRY_PERIOD = 600
 ENDPOINT = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
