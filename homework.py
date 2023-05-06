@@ -129,8 +129,6 @@ def main():
                 send_message(bot, 'Ошибка при запросе к основному API')
             except telegram.error.TelegramError:
                 logging.error('Ошибка при отправке сообщения')
-                raise telegram.error.TelegramError(
-                    'Не удалось отправить сообщение')
         finally:
             time.sleep(RETRY_PERIOD)
 
