@@ -16,7 +16,7 @@ Telegram-бот, который обращается к API сервиса и у
 git clone git@github.com:akanelovw/homework_bot.git
 ```
 ```
-cd homework_bot
+cd bot-assistent
 ```
 
 Создать и активировать виртуальную среду:
